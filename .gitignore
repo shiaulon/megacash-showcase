@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.log
+*.env
+*.key
+*.p8
+*.jks
+*.keystore
+service-account*.json
+google-services.json
+GoogleService-Info.plist
+

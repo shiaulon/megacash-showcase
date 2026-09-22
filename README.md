@@ -9,6 +9,8 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://apps.apple.com/app/id6778529478"><strong>Baixar na App Store</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://megacash-int.web.app"><strong>Acessar versão Web</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://shiaulon.github.io/megacash-showcase/"><strong>Abrir demonstração</strong></a>
 </p>
 

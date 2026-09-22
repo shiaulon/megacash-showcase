@@ -143,3 +143,50 @@ input, select { width: 100%; min-height: 44px; padding: 0 12px; border: 1px soli
   .mobile-nav .nav-button svg { width: 18px; height: 18px; }
   .form-grid { grid-template-columns: 1fr; gap: 0; }
 }
+
+/* O showcase representa o aplicativo sempre em um viewport mobile. */
+body { min-height: 100vh; background: #dce1eb; }
+.phone-shell { width: min(100%, 430px); min-height: 100vh; margin: 0 auto; background: var(--canvas); box-shadow: 0 0 40px #1b233c24; }
+.demo-banner { height: 34px; justify-content: space-between; padding: 0 14px; font-size: 11px; }
+.demo-banner button { border: 0; background: transparent; color: #5c4500; font-size: 10px; font-weight: 800; text-decoration: underline; }
+.app-shell { min-height: calc(100vh - 34px); display: block; }
+.sidebar { display: none; }
+main { width: 100%; max-width: 100%; overflow: hidden; padding: 0 14px 88px; }
+.topbar { min-height: 84px; gap: 12px; }
+.topbar h1 { font-size: 22px; }
+.primary-button { width: 42px; padding: 0; }
+.primary-button span { display: none; }
+.summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.summary-card { min-height: 118px; padding: 14px; }
+.summary-value { margin-top: 14px; font-size: 17px; white-space: nowrap; }
+.content-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; margin-top: 10px; }
+.card { max-width: 100%; padding: 15px; overflow: hidden; }
+.section-header { min-width: 0; }
+.section-header span { max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.invoice-hero { grid-template-columns: minmax(0, 1fr); }
+.invoice-meta { justify-content: space-between; }
+.plan-grid { grid-template-columns: 1fr; gap: 10px; }
+.mobile-nav { position: fixed; bottom: 0; left: 50%; width: min(100%, 430px); transform: translateX(-50%); height: 70px; padding: 7px 6px max(7px, env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(5, 1fr); background: white; border-top: 1px solid var(--line); z-index: 5; }
+.mobile-nav .nav-button { min-height: 55px; padding: 4px; justify-content: center; gap: 2px; flex-direction: column; font-size: 9px; color: var(--muted); }
+.mobile-nav .nav-button.active { color: var(--navy); background: var(--canvas); }
+.mobile-nav .nav-button svg { width: 18px; height: 18px; }
+.module-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.module-button { min-height: 108px; border: 1px solid var(--line); border-radius: 8px; background: white; padding: 15px; text-align: left; color: var(--text); }
+.module-button svg { width: 22px; color: var(--navy); }
+.module-button strong, .module-button span { display: block; }
+.module-button strong { margin-top: 14px; font-size: 13px; }
+.module-button span { margin-top: 4px; color: var(--muted); font-size: 10px; line-height: 1.35; }
+.goal-row { padding: 14px 0; border-top: 1px solid var(--line); }
+.goal-row:first-of-type { border-top: 0; }
+.goal-head { display: flex; justify-content: space-between; margin-bottom: 9px; font-size: 12px; }
+.account-card { display: grid; grid-template-columns: 40px 1fr auto; gap: 11px; align-items: center; margin-bottom: 10px; }
+.account-card:last-child { margin-bottom: 0; }
+.account-card strong, .account-card span { display: block; }
+.account-card span { color: var(--muted); font-size: 11px; margin-top: 3px; }
+.report-bars { display: grid; gap: 12px; }
+.report-bar { display: grid; grid-template-columns: 82px 1fr 62px; gap: 8px; align-items: center; font-size: 11px; }
+.transaction-actions { display: flex; align-items: center; gap: 7px; }
+.transaction-actions { min-width: 0; }
+.transaction-actions .transaction-value { font-size: 11px; white-space: nowrap; }
+.delete-button { width: 28px; height: 28px; border: 0; border-radius: 5px; background: var(--coral-soft); color: var(--coral); display: grid; place-items: center; }
+.delete-button svg { width: 14px; }

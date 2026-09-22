@@ -14,11 +14,18 @@ O MegaCash centraliza a vida financeira do usuario em uma experiencia disponivel
 
 ## Demonstracao
 
-**[Abrir demonstração interativa](demo/)**
+**[Abrir demonstração interativa](https://shiaulon.github.io/megacash-showcase/)**
 
-A demonstração funciona inteiramente no navegador, sem conta, Firebase ou dados reais. Datas, fatura e movimentações são recalculadas em relação ao mês atual sempre que ela é aberta.
+A demonstração funciona inteiramente no navegador, sem conta, Firebase ou dados reais. Datas, fatura e movimentações são recalculadas em relação ao mês atual. Alterações feitas pelo visitante ficam somente no armazenamento local do próprio navegador.
 
-![Dashboard demonstrativo do MegaCash](docs/screenshots/demo-desktop.png)
+<p align="center">
+  <img src="docs/screenshots/demo-mobile.png" width="430" alt="Dashboard demonstrativo do MegaCash em visualização mobile">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/demo-transacoes.png" width="330" alt="Transações fictícias na demonstração do MegaCash">
+  <img src="docs/screenshots/demo-fatura.png" width="330" alt="Fatura fictícia na demonstração do MegaCash">
+</p>
 
 A interface adapta-se a desktop e celular, mantendo a navegação e os dados demonstrativos.
 

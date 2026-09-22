@@ -4,6 +4,14 @@
 
 <h1 align="center">MegaCash</h1>
 
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.megacash.pessoal"><strong>Baixar no Google Play</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://apps.apple.com/app/id6778529478"><strong>Baixar na App Store</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://shiaulon.github.io/megacash-showcase/"><strong>Abrir demonstração</strong></a>
+</p>
+
 Aplicativo multiplataforma de gestao financeira pessoal, desenvolvido para transformar movimentacoes do dia a dia em uma visao clara de contas, cartoes, faturas, metas e patrimonio.
 
 > Este repositorio e um showcase tecnico e de produto. O codigo-fonte, as credenciais e a infraestrutura de producao sao privados.

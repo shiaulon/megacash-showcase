@@ -26,7 +26,7 @@ O MegaCash centraliza a vida financeira do usuario em uma experiencia disponivel
 
 **[Abrir demonstração interativa](https://shiaulon.github.io/megacash-showcase/)**
 
-A demonstração funciona inteiramente no navegador, sem conta, Firebase ou dados reais. Datas, fatura e movimentações são recalculadas em relação ao mês atual. Alterações feitas pelo visitante ficam somente no armazenamento local do próprio navegador.
+A demonstração é uma build Flutter Web separada do aplicativo de produção. Ela funciona inteiramente no navegador, sem conta, Firebase ou dados reais. Datas, fatura e movimentações são recalculadas em relação ao mês atual. Alterações feitas pelo visitante ficam somente no armazenamento local do próprio navegador.
 
 <p align="center">
   <img src="docs/screenshots/demo-mobile.png" width="430" alt="Dashboard demonstrativo do MegaCash em visualização mobile">

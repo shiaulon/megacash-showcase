@@ -14,15 +14,13 @@ O MegaCash centraliza a vida financeira do usuario em uma experiencia disponivel
 
 ## Demonstracao
 
-<!-- Substituir os arquivos abaixo por capturas com dados ficticios antes da publicacao. -->
+**[Abrir demonstração interativa](demo/)**
 
-| Dashboard | Transacoes | Faturas |
-| --- | --- | --- |
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Transacoes](docs/screenshots/transacoes.png) | ![Faturas](docs/screenshots/faturas.png) |
+A demonstração funciona inteiramente no navegador, sem conta, Firebase ou dados reais. Datas, fatura e movimentações são recalculadas em relação ao mês atual sempre que ela é aberta.
 
-| Planejamento | Assinaturas | Administracao |
-| --- | --- | --- |
-| ![Planejamento](docs/screenshots/planejamento.png) | ![Planos](docs/screenshots/planos.png) | ![Portal administrativo](docs/screenshots/admin.png) |
+![Dashboard demonstrativo do MegaCash](docs/screenshots/demo-desktop.png)
+
+A interface adapta-se a desktop e celular, mantendo a navegação e os dados demonstrativos.
 
 ## Principais recursos
 
@@ -116,6 +114,10 @@ Este material nao contem:
 - dados pessoais ou financeiros reais.
 
 O conteudo deste repositorio e protegido por direitos autorais. Consulte [LICENSE](LICENSE).
+
+## Publicacao gratuita
+
+Depois de enviar este repositorio ao GitHub, abra **Settings > Pages**, escolha **Deploy from a branch**, selecione `main` e a pasta `/ (root)`. O GitHub Pages publicara a demonstracao sem servidor e sem consumo do Firebase.
 
 ## Contato
 

@@ -25,16 +25,6 @@ Aplicativo multiplataforma de gestao financeira pessoal criado para transformar 
 
 A demo usa uma copia isolada do aplicativo Flutter Web e um projeto Firebase exclusivo, sem acesso a usuarios ou dados de producao. Cada visitante recebe uma sessao anonima com dados financeiros ficticios do mes atual e dos dois meses anteriores. As datas sao renovadas automaticamente, permitindo explorar dashboard, contas, transacoes e analises em qualquer mes.
 
-<p align="center">
-  <img src="docs/screenshots/demo-contas-real.png" width="310" alt="Contas ficticias na demo real do MegaCash">
-  <img src="docs/screenshots/demo-dashboard-real.png" width="310" alt="Dashboard real do MegaCash com dados ficticios">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/demo-transacoes.png" width="310" alt="Transacoes ficticias do MegaCash">
-  <img src="docs/screenshots/demo-fatura.png" width="310" alt="Fatura ficticia do MegaCash">
-</p>
-
 ## Principais recursos
 
 - Dashboard financeiro consolidado e historico mensal.
@@ -113,4 +103,3 @@ Fechamento e vencimento sao tratados separadamente. Compras feitas a partir do f
 ## Privacidade
 
 Este showcase nao contem codigo-fonte do produto, credenciais, certificados, regras completas de producao, IDs internos ou dados pessoais reais. Consulte a [licenca](LICENSE).
-

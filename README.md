@@ -25,6 +25,30 @@ Aplicativo multiplataforma de gestao financeira pessoal criado para transformar 
 
 A demo usa uma copia isolada do aplicativo Flutter Web e um projeto Firebase exclusivo, sem acesso a usuarios ou dados de producao. Cada visitante recebe uma sessao anonima com dados financeiros ficticios do mes atual e dos dois meses anteriores. As datas sao renovadas automaticamente, permitindo explorar dashboard, contas, transacoes e analises em qualquer mes.
 
+## Telas do aplicativo
+
+Capturas reais da demo Flutter Web em visualizacao mobile, com dados ficticios.
+
+| Dashboard | Movimentacao |
+| :---: | :---: |
+| <img src="docs/screenshots/dashboard.png" alt="Dashboard com saldo e resumo do mes" width="240"> | <img src="docs/screenshots/movimentacao.png" alt="Movimentacoes da conta principal" width="240"> |
+
+| Analise de gastos | Planejamento |
+| :---: | :---: |
+| <img src="docs/screenshots/analise.png" alt="Analise mensal por categoria" width="240"> | <img src="docs/screenshots/planejamento.png" alt="Orcamentos e planejamento mensal" width="240"> |
+
+| Patrimonio | Mercado |
+| :---: | :---: |
+| <img src="docs/screenshots/patrimonio.png" alt="Balanco patrimonial" width="240"> | <img src="docs/screenshots/mercado.png" alt="Historico de compras de mercado" width="240"> |
+
+| Exportacao | Saldo futuro |
+| :---: | :---: |
+| <img src="docs/screenshots/exportacao.png" alt="Selecao de transacoes para exportacao" width="240"> | <img src="docs/screenshots/saldo-futuro.png" alt="Projecao de saldo futuro" width="240"> |
+
+| Comparativo mensal | Contas a pagar |
+| :---: | :---: |
+| <img src="docs/screenshots/comparativo-mensal.png" alt="Comparativo de receitas e gastos mensais" width="240"> | <img src="docs/screenshots/contas-a-pagar.png" alt="Contas recorrentes a pagar" width="240"> |
+
 ## Principais recursos
 
 - Dashboard financeiro consolidado e historico mensal.

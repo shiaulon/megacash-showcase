@@ -29,25 +29,26 @@ A demo usa uma copia isolada do aplicativo Flutter Web e um projeto Firebase exc
 
 Capturas reais da demo Flutter Web em visualizacao mobile, com dados ficticios.
 
-| Dashboard | Movimentacao |
-| :---: | :---: |
-| <img src="docs/screenshots/dashboard.png" alt="Dashboard com saldo e resumo do mes" width="240"> | <img src="docs/screenshots/movimentacao.png" alt="Movimentacoes da conta principal" width="240"> |
-
-| Analise de gastos | Planejamento |
-| :---: | :---: |
-| <img src="docs/screenshots/analise.png" alt="Analise mensal por categoria" width="240"> | <img src="docs/screenshots/planejamento.png" alt="Orcamentos e planejamento mensal" width="240"> |
-
-| Patrimonio | Mercado |
-| :---: | :---: |
-| <img src="docs/screenshots/patrimonio.png" alt="Balanco patrimonial" width="240"> | <img src="docs/screenshots/mercado.png" alt="Historico de compras de mercado" width="240"> |
-
-| Exportacao | Saldo futuro |
-| :---: | :---: |
-| <img src="docs/screenshots/exportacao.png" alt="Selecao de transacoes para exportacao" width="240"> | <img src="docs/screenshots/saldo-futuro.png" alt="Projecao de saldo futuro" width="240"> |
-
-| Comparativo mensal | Contas a pagar |
-| :---: | :---: |
-| <img src="docs/screenshots/comparativo-mensal.png" alt="Comparativo de receitas e gastos mensais" width="240"> | <img src="docs/screenshots/contas-a-pagar.png" alt="Contas recorrentes a pagar" width="240"> |
+<table width="100%">
+  <tr>
+    <td align="center" width="33%"><strong>Dashboard</strong><br><img src="docs/screenshots/dashboard.png" alt="Dashboard com saldo e resumo do mes" width="220"></td>
+    <td align="center" width="33%"><strong>Movimentacao</strong><br><img src="docs/screenshots/movimentacao.png" alt="Movimentacoes da conta principal" width="220"></td>
+    <td align="center" width="33%"><strong>Analise de gastos</strong><br><img src="docs/screenshots/analise.png" alt="Analise mensal por categoria" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Planejamento</strong><br><img src="docs/screenshots/planejamento.png" alt="Orcamentos e planejamento mensal" width="220"></td>
+    <td align="center"><strong>Patrimonio</strong><br><img src="docs/screenshots/patrimonio.png" alt="Balanco patrimonial" width="220"></td>
+    <td align="center"><strong>Mercado</strong><br><img src="docs/screenshots/mercado.png" alt="Historico de compras de mercado" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Exportacao</strong><br><img src="docs/screenshots/exportacao.png" alt="Selecao de transacoes para exportacao" width="220"></td>
+    <td align="center"><strong>Saldo futuro</strong><br><img src="docs/screenshots/saldo-futuro.png" alt="Projecao de saldo futuro" width="220"></td>
+    <td align="center"><strong>Comparativo mensal</strong><br><img src="docs/screenshots/comparativo-mensal.png" alt="Comparativo de receitas e gastos mensais" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><strong>Contas a pagar</strong><br><img src="docs/screenshots/contas-a-pagar.png" alt="Contas recorrentes a pagar" width="220"></td>
+  </tr>
+</table>
 
 ## Principais recursos
 
